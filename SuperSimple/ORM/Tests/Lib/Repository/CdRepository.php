@@ -7,7 +7,6 @@
  **/
 namespace SuperSimple\ORM\Tests\Lib\Repository;
 
-use SuperSimple\Test\Lib\Page;
 use SuperSimple\ORM\Entity\EntityInterface;
 use SuperSimple\ORM\Repository\AbstractRepository;
 use SuperSimple\ORM\Repository\RepositoryInterface;
@@ -23,7 +22,7 @@ class CdRepository extends AbstractRepository implements RepositoryInterface
 
 	/**
 	 * persist
-	 * @param object Page $entity
+	 * @param object EntityInterface $entity
 	 * @return void
 	 **/
 	public function persist(EntityInterface $entity)
