@@ -1,3 +1,4 @@
 /vendor/
 /SuperSimple/ORM/Tests/output/*
 /composer.lock
+/SuperSimple/ORM/Tests/var/tmp_data.db
