@@ -1,0 +1,23 @@
+{
+    "name": "pete-robinson/super-simple-orm",
+    "description": "A super-simple ORM for projects that require a minor database layer.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Robinson",
+            "email": "work@pete-robinson.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuperSimple\\": "SuperSimple/",
+            "App\\": "App/"
+        }
+    }
+}
